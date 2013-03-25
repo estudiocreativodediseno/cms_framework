@@ -48,9 +48,9 @@
 
 			$folder = implode('/',$nameParts);
 			if(!file_exists($frontend_versions_path.'views'.$folder))
-				mkdir($frontend_versions_path.'views'.$folder, 0755, true);
+				mkdir($frontend_versions_path.'views'.$folder, 0777, true);
 			if(!file_exists($frontend_section_path.'views'.$folder))
-				mkdir($frontend_section_path.'views'.$folder, 0755, true);
+				mkdir($frontend_section_path.'views'.$folder, 0777, true);
 				
 			$outputFile = $frontend_section_path.'views'.$row->url.'.php';
 			if(file_exists($outputFile))
@@ -107,9 +107,9 @@
 			
 			$folder = implode('/',$nameParts);
 			if(!file_exists($frontend_versions_path.'controllers'.$folder))
-				mkdir($frontend_versions_path.'controllers'.$folder, 0755, true);
+				mkdir($frontend_versions_path.'controllers'.$folder, 0777, true);
 			if(!file_exists($frontend_section_path.'controllers'.$folder))
-				mkdir($frontend_section_path.'controllers'.$folder, 0755, true);				
+				mkdir($frontend_section_path.'controllers'.$folder, 0777, true);				
 					
 			$outputFile = $frontend_section_path.'controllers'.$row->url.'.php';
 			if(file_exists($outputFile))
