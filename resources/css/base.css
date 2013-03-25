@@ -957,8 +957,6 @@ input[type="submit"]{ background-color: transparent;}
 /* $fancy --------------------------------------------------------- */
 /*/**{ -webkit-tap-highlight-color: rgba(235,145,20,0.4);}*/
 
-
-.selected	{background-color: #68B8CD;}
-.selected	{background-color: #CCC;}
+.selected	{background-color: #E2E2E2;}
 .deleted	{background-color: #F18A7E;}
 .added		{background-color: #A4F628;}
