@@ -14,8 +14,8 @@
 | path to your installation.
 |
 */
-$config['base_url']	= 'http://192.168.0.12/sistemas/FRAMEWORKS/CMS_CRUD';
-$config['web_post_url']	= 'sistemas/FRAMEWORKS/CMS_CRUD';
+$config['base_url']	= 'http://192.168.0.12/sistemas/FRAMEWORKS/cms_framework';
+$config['web_post_url']	= 'sistemas/FRAMEWORKS/cms_framework';
 
 
 /*
@@ -26,7 +26,7 @@ $config['web_post_url']	= 'sistemas/FRAMEWORKS/CMS_CRUD';
 | Configuración del CMS 
 |
 */
-$config['upload_complete_folder_url']			= 'sistemas/FRAMEWORKS/CMS_CRUD/uploads';
+$config['upload_complete_folder_url']			= 'sistemas/FRAMEWORKS/cms_framework/uploads';
 $config['upload_folder_url']					= '/uploads';
 $config['upload_templates_folder']				= 'uploads/files/templates/';
 $config['upload_section_templates_folder']		= 'uploads/files/templates/sections/';
