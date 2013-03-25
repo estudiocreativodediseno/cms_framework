@@ -1,0 +1,101 @@
+/* 19.04.12 | escaparate.css */
+
+/* next button */
+.bx-next{
+    text-indent: -9999px;
+	overflow: hidden;
+    position: absolute;
+    z-index: 99;
+    background-position: top left;
+    background-repeat: no-repeat;
+}
+
+/* previous button */
+.bx-prev{
+    text-indent: -9999px;
+	overflow: hidden;
+    position: absolute;
+    z-index: 99;
+    background-position: top left;
+    background-repeat: no-repeat;
+}
+
+/* next/prev button hover */
+.bx-next:hover,
+.bx-prev:hover{ background-position: bottom left;}
+
+/* pager wrapper */
+.bx-pager{
+	position: absolute;
+	z-index: 99;
+}
+	/* pager links */
+	.bx-pager a{
+		text-indent: -99px;
+		display: block;
+		float: left;
+		cursor: pointer;
+		margin: 0 4px;
+		overflow: hidden;
+		background-position: top left;
+		background-repeat: no-repeat;
+	}
+		.bx-pager a:hover{ background-position: bottom left;}
+		.bx-pager .pager-active{ background-position: bottom left;}
+
+
+	/* Escaparate Home */
+	.showcase .bx-next{
+		width: 34px;  
+    	height: 49px;
+		top: 336px;
+	   	right: 16px;
+	   	background-image: url("../img/escaparate/next-btn.png");
+	}
+
+	.showcase .bx-prev{
+		width: 34px;  
+    	height: 49px;
+		top: 336px;
+	    left: 16px;
+	   	background-image: url("../img/escaparate/prev-btn.png");
+	}
+
+		.showcase .bx-pager{
+			right: 12px;
+			bottom: 48px;
+		}
+			.showcase .bx-pager a{
+				width: 18px;
+				height: 17px;
+				background-image: url("../img/escaparate/numbers.png");
+			}
+
+
+	/* Galleria Interior */
+	.modal-window-showcase .bx-next{
+		width: 29px;
+		height: 42px;
+		top: 142px;
+		right: 5px;
+	   	background-image: url("../img/escaparate/gallery-next-btn.png");
+	}
+
+	.modal-window-showcase .bx-prev{
+		width: 29px;
+		height: 42px;
+		top: 142px;
+		left: 5px;
+	   	background-image: url("../img/escaparate/gallery-prev-btn.png");
+	}
+
+		.modal-window-showcase .bx-pager{
+			width: auto;
+			left: 12px;
+			bottom: 11px;
+		}
+			.modal-window-showcase .bx-pager a{
+				width: 15px;
+				height: 15px;
+				background-image: url("../img/escaparate/gallery-numbers.png");
+			}

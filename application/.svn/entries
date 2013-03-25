@@ -1,0 +1,175 @@
+10
+
+dir
+0
+https://github.com:443/estudiocreativodediseno/cms_framework.git/application
+https://github.com:443/estudiocreativodediseno/cms_framework.git
+add
+
+
+
+
+
+has-props
+has-prop-mods
+
+
+
+
+
+
+
+
+
+
+
+
+1701ce56-7ada-1462-b94f-ce57b7db7bff
+
+hooks
+dir
+
+
+
+add
+
+language
+dir
+
+
+
+add
+
+models
+dir
+
+
+
+add
+
+core
+dir
+
+
+
+add
+
+third_party
+dir
+
+
+
+add
+
+views
+dir
+
+
+
+add
+
+.DS_Store
+file
+
+
+
+add
+
+
+
+
+
+has-props
+has-prop-mods
+
+layouts
+dir
+
+
+
+add
+
+helpers
+dir
+
+
+
+add
+
+cache
+dir
+
+
+
+add
+
+logs
+dir
+
+
+
+add
+
+config
+dir
+
+
+
+add
+
+images
+dir
+
+
+
+add
+
+controllers
+dir
+
+
+
+add
+
+index.html
+file
+
+
+
+add
+
+
+
+
+
+has-props
+has-prop-mods
+
+.htaccess
+file
+
+
+
+add
+
+
+
+
+
+has-props
+has-prop-mods
+
+errors
+dir
+
+
+
+add
+
+libraries
+dir
+
+
+
+add
+

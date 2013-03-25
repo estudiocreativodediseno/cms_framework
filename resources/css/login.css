@@ -1,0 +1,72 @@
+/*
+*
+* @date 05.03.13
+*
+*
+*/
+
+/* $ ------------------------------------------------------ */
+.login{
+	width: 990px;
+	margin: 0 auto;
+	padding-top: 60px;
+}
+
+	.login-form{
+
+		position: relative;
+		top: 184px;
+	}
+
+	.login-form .helper-box{
+		margin-top: 16px;
+		padding-left: 10px;
+	}
+
+	.login-form fieldset{
+		line-height: 42px;
+		margin-bottom: 30px;
+	}
+
+		.login-form label{
+			font-size: 14px;
+			text-indent: 16px;
+			position: absolute;
+			z-index: 1;
+			color: #b0b09a;
+		}
+
+			.active{ color: #6d6d54 !important;}
+
+		.login-form input[type="text"],
+		.login-form input[type="password"]{
+			position: relative;
+			padding: 0 10px 0 104px;
+
+			width: 256px; /* 370px */
+			height: 42px;
+
+			-webkit-box-shadow: inset 0 0 4px rgba(0,0,0,0.3);
+			   -moz-box-shadow: inset 0 0 4px rgba(0,0,0,0.3);
+					box-shadow: inset 0 0 4px rgba(0,0,0,0.3);
+
+			border: 1px solid #cecec0;
+
+			-webkit-border-radius: 3px;
+			   -moz-border-radius: 3px;
+					border-radius: 3px;
+
+			color: #b0b09a;
+		}
+
+			.login-form input[type="text"]:focus,
+			.login-form input[type="password"]:focus{
+				color: #6d6d54;
+				border-color: #b0b09a;
+			}
+
+		.login-form input[type="password"]{
+			font-size: 20px;
+			font-weight: bold;
+			letter-spacing: -0.16em;
+		}

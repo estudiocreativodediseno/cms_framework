@@ -1,0 +1,51 @@
+/* CSS Document */
+
+body{
+	background-color:#DAF8FF;
+	background-color:#FFF7FE;
+}
+
+
+wrapper{
+	width:auto;
+}
+.header{
+	width:100%;
+	background-color:#FFF;
+	border:1px solid;
+	height:35px;
+}
+
+.header .username{
+	float:right;
+	width:320px;
+	right:20x;
+}
+.header .username a{
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:11px;
+}
+.aside{
+	width:350px;
+	float:left;
+	display:block;
+}
+.workspace{
+	background-color:#FFF;
+	border:1px solid;
+	width:1200px;
+	float:left;
+	display:block;
+	padding:20px;
+	margin:20px;
+	opacity:.8;
+	height:600px;
+}
+.module-title{
+	width:auto;
+	right:30px;
+	float:right;
+	border:0px 0px 1px 0px solid;
+	padding:20px;
+	margin:20px;
+}

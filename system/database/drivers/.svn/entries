@@ -1,0 +1,112 @@
+10
+
+dir
+0
+https://github.com:443/estudiocreativodediseno/cms_framework.git/system/database/drivers
+https://github.com:443/estudiocreativodediseno/cms_framework.git
+add
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1701ce56-7ada-1462-b94f-ce57b7db7bff
+
+mssql
+dir
+
+
+
+add
+
+sqlite
+dir
+
+
+
+add
+
+oci8
+dir
+
+
+
+add
+
+pdo
+dir
+
+
+
+add
+
+postgre
+dir
+
+
+
+add
+
+mysql
+dir
+
+
+
+add
+
+odbc
+dir
+
+
+
+add
+
+cubrid
+dir
+
+
+
+add
+
+index.html
+file
+
+
+
+add
+
+
+
+
+
+has-props
+has-prop-mods
+
+sqlsrv
+dir
+
+
+
+add
+
+mysqli
+dir
+
+
+
+add
+

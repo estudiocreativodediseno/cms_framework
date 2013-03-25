@@ -1,0 +1,29 @@
+/*
+*
+* @date 05.03.13
+*
+* 
+*/
+
+/* DIN ------------------------------------------------------------ */
+@font-face {
+    font-family: 'din_light';
+    src: url('fonts/din/din_light-webfont.eot');
+    src: url('fonts/din/din_light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/din/din_light-webfont.woff') format('woff'),
+         url('fonts/din/din_light-webfont.ttf') format('truetype'),
+         url('fonts/din/din_light-webfont.svg#din_lightregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'din_medium';
+    src: url('fonts/din/din_medium-webfont.eot');
+    src: url('fonts/din/din_medium-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/din/din_medium-webfont.woff') format('woff'),
+         url('fonts/din/din_medium-webfont.ttf') format('truetype'),
+         url('fonts/din/din_medium-webfont.svg#din_mediumregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}

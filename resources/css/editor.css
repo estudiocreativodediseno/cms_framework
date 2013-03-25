@@ -1,0 +1,202 @@
+/* $editor -------------------------------------------------------- */
+pre {
+	_width: 500px;                          /* specify width  */
+	_white-space: pre-wrap;                 /* CSS3 browsers  */
+	_white-space: -moz-pre-wrap !important; /* 1999+ Mozilla  */
+	_white-space: -pre-wrap;                /* Opera 4 thru 6 */
+	_white-space: -o-pre-wrap;              /* Opera 7 and up */
+	_word-wrap: break-word;                 /* IE 5.5+ and up */
+	_overflow-x: auto;                		/* Firefox 2 only */
+	_width: 99%; 		       				/* only if needed */
+
+	_white-space: nowrap;
+	padding-right: 1em;
+}
+
+.editor-panel{
+	width: 100%;
+	height: 81%;
+}
+
+	.editor-panel .editor,
+	.editor-panel .framework{
+		height: 100%;
+		border: 1px solid #c9cac0;
+		background: #fff;
+	}
+
+	.editor-panel .editor{ float: left;}
+	.editor-panel .framework{ float: right;}
+
+	.editor,
+	.framework{
+		font-family: 'Courier New', Courier, monospace;
+		font-weight: bold;
+		font-size: 13px;
+	}
+
+		.container{
+			padding: 0 4px;
+			height: 100%;
+			height: 99.8%;
+		}
+
+		.line-numbers{}
+
+			.line-numbers .container{
+				text-align: right;
+				border-right: 1px solid #deac00;
+				color: #4d2c00;
+				background: #fef1b7;
+			}
+
+		.line-codes{}
+			
+			.line-codes .container{
+				padding: 0 12px;
+				overflow-x: auto;
+				border-right: 1px solid #c9cac0;
+				height: 100%;
+			}
+
+
+			.editable-line:nth-child(odd){
+				_background: #f1f1f1;
+			}
+
+
+		.action-deletes{}
+
+			/*.action-deletes a{ display: block;}*/
+
+		.editable-line,
+		.line-number,
+		.action-deletes a,
+		.framework-shortcut{
+			display: block;
+			height: 20px;
+			line-height: 20px;
+		}
+
+	.framework{
+		width: 24%;
+		overflow-x: hidden;
+		overflow-y: auto; 
+	}
+		.framework .container{ padding: 0 6px;}
+
+			.framework-shortcut{
+				padding-left: 25px;
+				background-position: bottom left;
+				background-repeat: no-repeat;
+			}
+
+			.red-shortcut{ background-image: url(../img/buttons/red-shortcut.png);}
+				.red-shortcut:hover{ color: #e94d33;}
+			.orange-shortcut{ background-image: url(../img/buttons/orange-shortcut.png);}
+				.orange-shortcut:hover{ color: #ff933f;}
+
+			.green-shortcut{ background-image: url(../img/buttons/green-shortcut.png);}
+				.green-shortcut:hover{ color: #72b500;}
+
+			.blue-shortcut{ background-image: url(../img/buttons/blue-shortcut.png);}
+				.blue-shortcut:hover{ color: #148fdb;}
+
+
+
+/* $buttons ------------------------------------------------------- */
+	.delete-btn{
+		_width: 16px;
+		height: 16px;
+		line-height: 16px;
+		background: url(../img/buttons/delete-btn.png) center no-repeat;
+	}
+
+
+/* $Three Column Layout ------------------------------------------- */
+body {
+	width: 100%;
+
+	/* Minimum width of layout */
+	_min-width: 600px;
+}
+
+/* column container */
+.colmask {
+	width: 75%;		/* width of whole page */
+	height: 100%;
+
+	clear: both;
+	position: relative;	/* Fixes the IE7 overflow hidden bug */
+	_overflow: hidden;	/* This chops off any overhanging divs */
+
+	overflow-y:	auto;
+
+	/*float: left;*/
+}
+
+/* common column settings */
+.colmid{ padding: 1px;}
+
+.colright,
+.colmid,
+.colleft {
+	/* width of page */
+	width: 100%;
+	float: left;
+	position: relative;
+
+	_height: 100%;
+	_height: 100%;
+}
+
+.col1,
+.col2,
+.col3 {
+	float: left;
+	position: relative;
+	padding: 0;		
+	_overflow: hidden;
+
+	height: 100%;
+}
+
+/* right column */
+.threecol {}
+
+	.threecol .col3 {
+		/* Width of right column content (column width minus padding on either side) */
+		width: 3%;
+		
+		/* (100% - left column width) plus (center column left and right padding) plus (left column left and right padding) plus (right column left padding) */
+		left: 97%;
+	}
+
+
+/* center column */
+.threecol .colmid {
+	/* width of the right column */
+	right: 3%;
+}
+	.threecol .col1 {
+		/* width of center column content (column width minus padding on either side) */
+		width: 94%;
+		
+		/* 100% plus left padding of center column */
+		left: 100%;
+	}
+
+
+/* left column */
+.threecol .colleft {
+	/* width of the center column */
+	right: 94%;
+}
+	.threecol .col2 {
+		/* Width of left column content (column width minus padding on either side) */
+		width: 3%;
+		
+		/* width of (right column) plus (center column left and right padding) plus (left column left padding) */
+		left: 3%;
+	}
+
